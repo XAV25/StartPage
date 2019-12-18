@@ -1,0 +1,72 @@
+.tete{
+    display:flex; 
+    padding-top: 3%;
+}
+.tete > h1{
+    margin: auto;
+    width: 40%;
+    padding-left: 10%;
+    font-family:'OCR A Std', monospace;
+}
+.left{
+    width:30%;
+    margin-left: 2%;
+    color: seagreen;
+}
+.right{
+    width:30%;
+    padding-left: 10%;
+    color: seagreen;
+}
+
+
+body{
+    background: url("fdc1.jpg");
+   
+}
+
+
+
+.conteneur{
+    display:flex;
+    padding-top: 4%;
+   
+}
+
+
+.boite{
+	margin:0px auto;
+	display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'OCR A Std', monospace;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    width: 30%;
+    overflow-wrap: break-word;
+}
+
+a{
+    color: black
+
+}
+
+p{
+    color: seagreen;
+}
+
+h4{
+    border-bottom: solid 3px white;
+
+}
+
+.conteneur2{
+    display:flex;
+    padding-top: 4%;
+}
+
